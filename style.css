@@ -594,11 +594,11 @@ footer {
   font-size: small;
 }
 
-@media (max-width: 1060px) {
-  .menu-btn {
+@media (max-width: 900px) {     /*it was 1060 */
+   .menu-btn {
     display: block;
     z-index: 999;
-  }
+  } 
   .menu-btn i.active:before {
     content: "\f00d";
   }
